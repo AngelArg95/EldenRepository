@@ -1,0 +1,288 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+#image {
+  width: 115rem;
+  height: 50rem;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 40px;
+
+}
+
+figcaption {
+  text-align: center;
+  font-size: 1.9rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  color: #fff;
+  font-family: Mantinia;
+}
+
+#img-div {
+  background-image: none;
+  text-align: center;
+}
+
+#eldenRing {
+  text-align: center;
+  font-family: Mantinia;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-top: 50px;
+}
+
+#title {
+  text-align: center;
+  font-family: Mantinia;
+  font-size: 4rem;
+
+}
+#first-data{
+  margin-left: 33%;
+}
+
+.data-release {
+  display: inline;
+  padding: 10px;
+  color: #f8782c;
+  
+}
+#logo-Elden{
+  margin-left: 28%;
+  margin-top: -60px;
+}
+#video{
+  margin-top: 57px;
+  display: inline-block;
+}
+/*NavBar*/
+.navbar{
+  position:fixed;
+  z-index: 999;
+  background-color: #000;
+}
+
+#logo-navBar{
+  width:200px;
+  
+  
+}
+.nav-link{
+  color: #fff !important;
+  text-align: center;
+  font-family: Mantinia;
+
+}
+a:hover {
+  transform: scale(1.05);
+  transition-duration: 0.2s;
+}
+@font-face {
+  font-family: Mantinia;
+  src: url(Img/Mantinia\ Regular.otf);
+}
+
+#lands-header {
+  text-align: center;
+  font-family: Mantinia;
+  font-size: 4rem;
+  color: #fff;
+}
+
+#lands-p {
+  text-align: center;
+  font-family: Mantinia;
+  font-size: 2rem;
+  color: #fff;
+}
+
+#lands-p2 {
+  text-align: center;
+  color: #fff;
+}
+
+#limgrave {
+  width: 45rem;
+  height: 40rem;
+  display: block;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  border-radius: 40px;
+  
+}
+
+#limgraveTitle {
+  font-family: Mantinia;
+  font-size: 4rem;
+  color: #f8782c;;
+  margin-left: 40px;
+}
+
+#limgraveListP {
+  display: inline-block;
+  font-size: 3rem;
+  color: #fff;
+  padding-top: 100px;
+}
+
+#liurnia {
+  display: block;
+  width: 45rem;
+  height: 40rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  border-radius: 40px;
+}
+
+#liurniaTitle {
+  font-family: Mantinia;
+  font-size: 4rem;
+  color: #f8782c;
+  margin-left: 40px;
+
+}
+
+#liurniaListP {
+  display: inline-block;
+  font-size: 3rem;
+  color: #fff;
+  padding-top: 100px;
+}
+
+#caelid {
+  display: block;
+  width: 45rem;
+  height: 40rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  border-radius: 40px;
+}
+
+#caelidTitle {
+  font-family: Mantinia;
+  font-size: 4rem;
+  color: #f8782c;
+  margin-left: 40px;
+}
+
+#caelidListP {
+  display: inline-block;
+  font-size: 3rem;
+  color: #fff;
+  padding-top: 100px;
+}
+
+#altus {
+  display: block;
+  width: 45rem;
+  height: 40rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  border-radius: 40px;
+}
+
+#altusTitle {
+  font-family: Mantinia;
+  font-size: 4rem;
+  color: #f8782c;
+  margin-left: 40px;
+}
+
+#altusListP {
+  display: inline-block;
+  font-size: 3rem;
+  color: #fff;
+  padding-top: 100px;
+}
+
+#giantMountain {
+  display: block;
+  width: 45rem;
+  height: 40rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  border-radius: 40px;
+}
+
+#mountainTitle {
+  font-family: Mantinia;
+  font-size: 4rem;
+  color: #f8782c;
+  margin-left: 13px;
+}
+
+#mountainListP {
+  display: inline-block;
+  font-size: 3rem;
+  color: #fff;
+  padding-top: 100px;
+}
+
+section {
+  background-image:url(./assets/logo4.png); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style: none;
+}
+.paragraph{
+  margin-top: 9rem;
+  font-family: Mantinia;
+}
+
+#lands-p2 {
+  font-family: Mantinia;
+  font-size: 2rem;
+}
+
+#footer {
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #fff;
+}
+.fa-twitter {
+  font-size: 3rem;
+
+}
+.fa-facebook{
+  width: 500px;
+  height: 500px;
+}
+.card{
+  background-color: #000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+}
+.card-header{
+  font-size: 3rem;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  background-color: black;
+}
