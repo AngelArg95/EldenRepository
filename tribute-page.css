@@ -83,7 +83,7 @@ a:hover {
 }
 @font-face {
   font-family: Mantinia;
-  src: url(Img/Mantinia\ Regular.otf);
+  src: url(./assets/Mantinia\ Regular.otf);
 }
 
 #lands-header {
